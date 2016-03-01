@@ -50,6 +50,8 @@
         <appender-ref ref="ACCESS_FILE" />
     </logger>
 
+    <logger name="org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor" level="INFO"/>
+
     <root level="${log.level}">
         <appender-ref ref="ASYNCFILE"/>
         <appender-ref ref="ASYNCSTDOUT"/>
